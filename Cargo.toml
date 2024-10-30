@@ -3,4 +3,9 @@ name = "voting_contract"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+name = "voting_contract"
+path = "src/lib.rs"
+
 [dependencies]
+near-sdk = "5.5.0"  # Ensure you're using a valid version
